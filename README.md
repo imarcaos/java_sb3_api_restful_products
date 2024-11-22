@@ -15,6 +15,8 @@ Iniciado: 2024-11-15
 ## Iniciando o projeto no site Spring Initializr
 Nome do projeto: springboot
 Iniciar um projeto no site [Spring Initializr](https://start.spring.io/).
+![alt text](spring-initializr.png)
+
 
 ## Carregando o projeto para dentro do IntelliJ
 - Download e descompactar na pasta onde irá ficar o nosso projeto.
@@ -42,6 +44,8 @@ Iniciar um projeto no site [Spring Initializr](https://start.spring.io/).
 - Na classe "ProductController" iremos fazer um melhora nos métodos: "getAllProducts()" e "getOneProduct(@PathVariable(value="id") UUID id)" para retorna mais um atributo, o link para os produtos.
 
 - Todos os testes foram feitos através do PostMan.
+![alt text](postman-methods.png)
+
 - Vídeo que segui para este estudo: [Spring Boot 3](https://www.youtube.com/watch?v=wlYvA2b1BWI)
 
 ## finalizado
