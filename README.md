@@ -27,12 +27,13 @@ Iniciar um projeto no site [Spring Initializr](https://start.spring.io/).
 - Arrancar com o projeto e ver se carrega sem erros.
 
 - Criar um novo pacote "Repositories". springboot > src > main > java > com.example.springboot > BT DT new > package > nome:"repositories"
-- Dentro do pacote "repositories", vamos iniciar uma nova interface: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Interface > nome: "ProductRepository"
+- Dentro do pacote "repositories", vamos iniciar uma nova classe do tipo Interface: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Interface > nome: "ProductRepository"
 
 - Criar um novo pacote "Controllers". springboot > src > main > java > com.example.springboot > BT DT new > package > nome:"controllers"
-- Dentro do pacote "ProductController", vamos iniciar uma nova classe: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Interface > nome: "ProductController"
+- Dentro do pacote "ProductController", vamos iniciar uma nova classe do tipo Interface: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Interface > nome: "ProductController"
 
-- Criar um novo pacote "Dtos". springboot > src > main > java > com.example.springboot > BT DT new > package > nome:"dtos"
-- Dentro do pacote "ProductRecordDto", vamos iniciar um novo Record: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Interface > nome: "ProductRecordDto"
-
+- Criar um novo pacote "Dtos" (Data Transfer Objects). springboot > src > main > java > com.example.springboot > BT DT new > package > nome:"dtos"
+- Dentro do pacote "ProductRecordDto", vamos iniciar uma nova classe do tipo Record: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Record > nome: "ProductRecordDto"
+    
+- Na classe "ProductController", começamos a criar os métodos Post, Get
 
