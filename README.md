@@ -9,6 +9,7 @@ Iniciado: 2024-11-15
 - OpenJDK 21
 - IntelliJ
 - PostgreSQL
+- PostMan
 
 
 ## Iniciando o projeto no site Spring Initializr
@@ -35,5 +36,13 @@ Iniciar um projeto no site [Spring Initializr](https://start.spring.io/).
 - Criar um novo pacote "Dtos" (Data Transfer Objects). springboot > src > main > java > com.example.springboot > BT DT new > package > nome:"dtos"
 - Dentro do pacote "ProductRecordDto", vamos iniciar uma nova classe do tipo Record: springboot > src > main > java > com.example.springboot > repositories > BT DT new > Java Class > Record > nome: "ProductRecordDto"
     
-- Na classe "ProductController", começamos a criar os métodos Post, Get
+- Na classe "ProductController", começamos a criar os métodos Post, Get, Update e Delete.
+- Para fazer a última parte da nossa implementação RESTful, adicionamos mais uma dependência "hateoas" no nosso ficheiro "pom.xml"
+- Na classe "ProductModel" fazemos um extends "extends RepresentationModel<ProductModel>" que irá precisa do import para usar a dependência "hateoas".
+- Na classe "ProductController" iremos fazer um melhora nos métodos: "getAllProducts()" e "getOneProduct(@PathVariable(value="id") UUID id)" para retorna mais um atributo, o link para os produtos.
+
+- Todos os testes foram feitos através do PostMan.
+- Vídeo que segui para este estudo: [Spring Boot 3](https://www.youtube.com/watch?v=wlYvA2b1BWI)
+
+## finalizado
 
